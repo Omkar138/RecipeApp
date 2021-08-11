@@ -10,3 +10,6 @@ btn.addEventListener("click",function()
     body.style.backgroundColor="red";
 })
 console.log(a);
+console.log("secon change");
+console.log("third change");
+console.log("fourth change");
