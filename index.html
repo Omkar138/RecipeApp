@@ -1,11 +1,59 @@
 <html>
     <head>
-        <body class="body">
-            <link rel="stylesheet" href="style.css">
-        </body>
-        <h1>Hello</h1>
-        <h2>This is just to show how to do deployment of project</h2>
-        <button class="btn"> Press here to run JS</button>
-        <script src="main.js"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
+    <body> 
+        
+        <div class="container">
+            <header>
+                <input class ="input" type="text">
+                <button id="search-term" class="fas fa-search search"></button>
+            </header>
+            <h3>Favourite Meals</h3>
+            <div class="favourite-container">
+                <ul class="fav-meals" id="fav-meals">   </ul>
+                </div>   
+                <div class="meals" id="meals">
+                </div>
+
+                <div class="meal-info-container" align-items="right" id="meal-popup">
+                <div id="meal-info" class="meal-info">
+                   <button id="close-popup" class="close-popup">
+                        <i class="fas fa-window-close"></i>
+                    </button>
+            <!--        <div>
+                        <h1>Meal Title : </h1>
+                        <img  class="img" src="https://www.themealdb.com//images//media//meals//1529444830.jpg">
+                    </div>
+                    <div>
+                        <p>
+                            <ul>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</ul> 
+                            <ul>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</ul>
+                            <ul> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</ul>
+                            <ul> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <ul>
+                            <li>Ingredient 1 / measurement </li>
+                            <li>Ingredient 1 / measurement </li>
+                            <li>Ingredient 1 / measurement </li>
+                            <li>Ingredient 1 / measurement </li>
+                        </ul>
+                        </div>
+                        </div>
+                </div>
+          
+                
+            -->
+                <!--Footer section starts here-->
+<footer id="footer">
+    <p><a href="index.html" class="footername"> Refresh..</a><br><br>Coyrights Omkar Kulkarni &copy; 2021..Recipe Application<br> </p>
+</footer>
+
+        <script src="main.js"></script>
+    </body>
 </html>
